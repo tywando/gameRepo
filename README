@@ -1,9 +1,7 @@
-My game is a musical and color-based memory game. The LEDs light up a specific color and play a specific tone. Then, it turns off and does the same thing again. If the color is different, you press the left button. If the tone is different, you will press the right button. If both are different, then you need to press both buttons. The goal of the game is to go as long as you can without messing up!
+My game is a musical and color-based memory game. The LEDs light up a randomly chosen color and play a randomly chosen tone. Then, it turns off and does the same thing again. It will continue to do this, and the goal is to rack up as many points as you can without messing up! If the color is the same, you press the left button. If the tone is the same, you press the right button.
 	
-To start the game, you must fully cover the CPX light sensor. The color will flash and the tone will play for a short amount of time, so it is up to the player to pay close attention. If the player misses an input, that means the game is over. The game pauses until the player covers the light sensor to begin again.
+The color will flash and the tone will play for a short amount of time, so it is up to the player to pay close attention. If the player makes an incorrect input, that means the game is over. The game pauses until the player presses both buttons to start a new game.
 
-The videogame will have two different modes depending on the state of the switch, normal and hard. In normal, you will be able to see the lights and hear tones for 500 milliseconds, and you will have 5 seconds to provide an input. However, in hard mode you will only see and hear for 100 milliseconds, and you will have 3 seconds to provide an input. 
+The game has two different modes depending on the state of the switch, normal and hard. In normal, you can see the lights and hear tones for 500 milliseconds, and you have 2 seconds to provide an input. However, in hard mode you only only see and hear for 100 milliseconds, and you will have 1250 milliseconds to provide an input. 
 
-The amount of time you have to provide input will be displayed on the serial monitor. The amount of rounds you win will be displayed on the serial monitor after the game has completed. If you lose, it will display “Game Over” on the serial monitor. 
-
-
+The amount of points you gain is continually tracked and displayed on the serial monitor. If you lose, it will display “Game Over” on the serial monitor. Try to get the highest score you can in both hard and easy!
