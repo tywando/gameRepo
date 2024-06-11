@@ -5,3 +5,5 @@ The color will flash and the tone will play for a short amount of time, so it is
 The game has two different modes depending on the state of the switch, normal and hard. In normal, you can see the lights and hear tones for 500 milliseconds, and you have 2 seconds to provide an input. However, in hard mode you only only see and hear for 100 milliseconds, and you will have 1250 milliseconds to provide an input. 
 
 The amount of points you gain is continually tracked and displayed on the serial monitor. If you lose, it will display “Game Over” on the serial monitor. Try to get the highest score you can in both hard and easy!
+
+The code uses interrupt functions for both buttons and the switch. It checks to see inputs through if statements that check the values and truth value of the ISR flags. 
